@@ -1,0 +1,42 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+header{
+border: 1px solid black;
+
+}
+
+</style>
+</head>
+<body>
+<header>
+	<h2>헬스장 정보관리 프로그램</h2>
+</header>
+
+<nav>
+	<span><a href=list.jsp">회원 조회</a></span>
+	<span><a href=list.jsp">회원 등록</a></span>
+	<span><a href=list.jsp">트레이너 조회</a></span>
+	<span><a href=list.jsp">트레이너 등록</a></span>
+</nav>
+
+<section>
+	<h2>회원 조회</h2>
+	<table>
+		<tr>
+			<td>아이디</td>
+			<td>이름</td>
+			<td>성별</td>
+			<td>전화번호</td>
+			<td>나이</td>
+		</tr>
+	</table>
+</section>
+
+</body>
+</html>

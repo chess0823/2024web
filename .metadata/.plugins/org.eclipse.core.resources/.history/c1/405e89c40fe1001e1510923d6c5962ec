@@ -1,0 +1,7 @@
+package day8;
+
+public class wow {
+	String id;
+	String pw;
+	String name;
+}

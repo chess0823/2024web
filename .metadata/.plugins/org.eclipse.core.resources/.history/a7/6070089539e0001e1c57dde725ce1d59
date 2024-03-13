@@ -1,0 +1,39 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+   <%@ page import="day6_3.book" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+.wrap{
+	width:600px;
+	display:flex;
+	border: 1px solid black;
+	
+	margin:0 auto;
+}
+.wrap div{
+border: 1px solid black;
+width:25%;
+}
+h4{
+text-align:center;
+}
+</style>
+</head>
+<body>
+	
+	<% book Book = (book)request.getAttribute("book"); %>
+	
+	<div class="wrap">
+		 <div>책 정보</div>
+		 <div><img src="/day6/imgs/book.jpg"></div>
+		 <div><%=Book.getTitle()%></div>
+		 <div><%=Book.getAuthor()%></div>
+		 <div><%=Book.getPrice()%></div>
+	</div>
+</body>
+</html>

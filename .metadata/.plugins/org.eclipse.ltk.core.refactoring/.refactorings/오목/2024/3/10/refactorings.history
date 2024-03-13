@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;오목/src/main/webapp/acornList.jsp&apos; to &apos;t.list.jsp&apos;" description="Rename resource &apos;acornList.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/acornList.jsp" name="t.list.jsp" stamp="1709887155867" updateReferences="true"/>
+</session>

@@ -1,0 +1,10 @@
+package day6_3;
+
+public class prac4Service {
+	
+	
+	public Book getBookInfo() {
+		Book Book = new Book("뇌","베르나르",9000);
+		return Book;
+	}
+}

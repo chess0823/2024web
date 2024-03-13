@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+header{
+	border: 1px solid black;
+	display: flex;
+	height: 300px;
+}
+	header > div{
+	border: 1px solid black;
+	}	
+	.logo{
+	width:100px;
+	background-color : red;
+	}
+</style>
+</head>
+<body>
+
+<header>
+	<div class ="logo_wrap"> <div class="logo">로고영역</div> </div>
+	<div class = "search_wrap"> <div class="sarch">검색바</div> </div>
+	<div class = "menu_wrap"> <div class="meun">링크메뉴</div> </div>
+</header>
+</body>
+</html>

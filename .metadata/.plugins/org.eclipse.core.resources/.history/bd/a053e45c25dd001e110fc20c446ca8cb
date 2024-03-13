@@ -1,0 +1,37 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+
+</style>
+</head>
+<body>
+<header>
+<h2>트레이너 신청목록</h2>
+</header>
+
+<nav>
+	<span><a href="#">메뉴1</a></span>
+	<span><a href="#">메뉴2</a></span>
+	<span><a href="#">메뉴3</a></span>
+	<span><a href="#">메뉴4</a></span>
+</nav>
+
+<section>
+<table>
+<caption> 트레이너 조회</caption>
+<!-- 제목줄 -->
+<tr>id</tr>
+<tr>이름</tr>
+<tr>성별</tr>
+<tr>나이</tr>
+<tr>전화번호</tr>
+</table>
+
+</section>
+</body>
+</html>
